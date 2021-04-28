@@ -11,9 +11,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://www.deeprare.com">Deeprare!</a>
         </h1>
-
+        <h1 className={styles.title}>
+          Would you like to own a NFT?
+        </h1>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
