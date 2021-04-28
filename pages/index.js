@@ -14,7 +14,7 @@ export default function Home() {
           Welcome to <a href="https://www.deeprare.com">Deeprare!</a>
         </h1>
         <h1 className={styles.title}>
-          Would you like to own a NFT?
+          Would you like to own an NFT?
         </h1>
         <p className={styles.description}>
           Get started by editing{' '}
