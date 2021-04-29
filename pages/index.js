@@ -17,13 +17,13 @@ export default function Home() {
           Would you like to own an NFT?
         </h1>
         <p className={styles.description}>
-          more contents coming soon...
+          Create your NFT with us!
         </p>
 
         <div className={styles.grid}>
           <a href="https://www.deeprare.com" className={styles.card}>
             <h3>Home &rarr;</h3>
-            <p>Basic Info</p>
+            <p>Basic Info and what is NFT?</p>
           </a>
 
           <a href="https://www.deeprare.com" className={styles.card}>
@@ -35,8 +35,11 @@ export default function Home() {
             href="https://www.deeprare.com"
             className={styles.card}
           >
-            <h3>Sample Cases &rarr;</h3>
-            <p>Discover our sample NFT cases. (One Heritage Tower)</p>
+            <h3>Our NFT Services &rarr;</h3>
+            <p>Discover our sample NFT cases: </p>
+            <p>1. One Heritage Tower </p>
+            <p>2. Jpeg digital art NFT </p>
+            <p>3. Music mp4 NFT </p>
           </a>
 
           <a
