@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Deeprare</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,36 +17,35 @@ export default function Home() {
           Would you like to own an NFT?
         </h1>
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          more contents coming soon...
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://www.deeprare.com" className={styles.card}>
+            <h3>Home &rarr;</h3>
+            <p>Basic Info</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.deeprare.com" className={styles.card}>
+            <h3>About Us &rarr;</h3>
+            <p>Vision and Team</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.deeprare.com"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Sample Cases &rarr;</h3>
+            <p>Discover our sample NFT cases. (One Heritage Tower)</p>
+          </a>
+
+          <a
+            href="https://www.deeprare.com"
+            className={styles.card}
+          >
+            <h3>Contact Us &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Contact us for collaborations
             </p>
           </a>
         </div>
@@ -54,12 +53,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.deeprare.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <p>
+            Powered by{' '} Deeprare @ 2021
+          </p>
         </a>
       </footer>
     </div>
